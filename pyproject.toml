@@ -1,0 +1,11 @@
+[project]
+name = "writing-style"
+version = "0.1.0"
+description = "Analyze writing style from multiple blog articles using Agno multi-agent system"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "agno>=2.2.13",
+    "anthropic>=0.42.0",
+    "httpx>=0.28.1",
+]
